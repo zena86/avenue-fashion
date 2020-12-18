@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Product view</title>
+        <link rel="stylesheet" href="stylefonts.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <!--Yandex map-->
+        <script src="https://api-maps.yandex.ru/2.1.76/?apikey=a7680e15-bd49-475e-b292-fa597e02058c&lang=en_US" type="text/javascript">
+        </script>
+        <!--slick slider-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    <header>
+                    <div class="header-row1">
+                        <div class="header-row1__container container">
+                            
+                                                        <div class="currency-dropdown">
+                                <p>Сurrency&nbsp;:</p>
+                                <label class="currency-dropdown__label label">
+                                <select class="currency-dropdown__select select">
+                                    <option>GBP</option>
+                                    <option>EUR</option>
+                                    <option>USD</option>
+                                    <option>RUB</option>
+                                    <option>BYR</option>
+                                </select>
+                                </label>
+                            </div>
+
+                            
+                            <div class="header-row1__right">
+                            <div class="header-row1__links">
+                                <div class="header-row1__link">
+                                    <a class="link" href="">Register</a>          
+                                </div>
+                                <div class="header-row1__link">
+                                    <a class="link" href="welcome.html">Sign In</a>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="cart-btn">
+                                  <div class="cart-btn__body">
+                                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                   <span class="cart-btn__value">empty</span>
+                                   <span class="cart-arrow-down"><i class="cart-arrow-down fa fa-angle-down" aria-hidden="true"></i></span>
+                                   <span class="cart-arrow-up"><i class="fa fa-angle-up" aria-hidden="true"></i></span>
+                                   </div>
+                                   <div class="cart-box">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>  
+                            </div>
+                                        
+                                     
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="header-row2 header-row2_sm">
+                      <div class="header-row2__body">
+                       
+                        <div class="header-sm-cont">
+                            <div class="logo">
+                                <p><a href="index.html"><span>avenue&nbsp;</span>fashion</a></p>
+                            </div>
+                        </div> 
+                               
+                            <div class="burger-menu__burger">
+                                <span class="burger-menu__line burger-menu__line_1"></span>
+                                <span class="burger-menu__line burger-menu__line_2"></span>
+                                <span class="burger-menu__line burger-menu__line_3"></span>
+                                <span class="burger-menu__line burger-menu__line_4"></span>
+                            </div>
+
+                                <nav class="header-menu">
+                                    <ul class="header-menu__top-menu menu clearfix">
+                                
+                                        
+                                        <li class="header-menu__full"><a href="#" class="dropdown-arrow"><span class="active-color">mens</span></a>
+ 
+                                            <ul class="header-menu__submenu clearfix">
+                                               <li>
+                                                  <ul class="header-menu__submenu-col clearfix">
+                                                      <li><h3 class="header-menu__title header-menu__title-pos">casuals</h3>
+                                                  <ul class="header-menu__items">
+                                                        <li><a href="">Jackets</a></li>
+                                                        <li><a href="">Hoodies & Sweatshirts</a></li>
+                                                        <li><a href="">Polo Shirts</a></li>
+                                                        <li><a href="">Sportswear</a></li>
+                                                        <li><a href="">Trousers & Chinos</a></li>
+                                                        <li><a href="">T-Shirts</a></li>
+                                                  </ul>
+                                                </li>
+                                            
+                                                <li><h3 class="header-menu__title header-menu__title-pos">Formal</h3>
+                                                  <ul class="header-menu__items">
+                                                        <li><a href="">Jackets</a></li>
+                                                        <li><a href="">Shirts</a></li>
+                                                        <li><a href="">Suits</a></li>
+                                                        <li><a href="">Trousers</a></li>
+                                                  </ul> 
+                                                </li>  
+                                                  </ul>
+                                                   
+                                                   
+                                                   
+                                               </li>
+                                               <li>
+                                                   <div class="sale box box_color1">
+                                                       <span class="box__bold">Autumn sale!</span><br/>
+                                                <span class="box__think">up to 50% off</span>
+                                                   </div>
+                                               </li>
+                                               
+                                                
+                                            </ul>
+                                        
+                                        </li>   
+                                           
+                                           <li class="header-menu__full">
+                                           <a href="#" class="dropdown-arrow">womens</a>           
+                                            <ul class="header-menu__submenu clearfix">
+                                               <li>
+                                                  <ul class="header-menu__submenu-col clearfix">
+                                                      <li><h3 class="header-menu__title header-menu__title-pos">casuals</h3>
+                                                  <ul class="header-menu__items">
+                                                        <li><a href="">Jackets</a></li>
+                                                        <li><a href="">Hoodies & Sweatshirts</a></li>
+                                                        <li><a href="">Polo Shirts</a></li>
+                                                        <li><a href="">Sportswear</a></li>
+                                                        <li><a href="">Trousers & Chinos</a></li>
+                                                        <li><a href="">T-Shirts</a></li>
+                                                  </ul>
+                                                </li>
+                                            
+                                                <li><h3 class="header-menu__title header-menu__title-pos">Formal</h3>
+                                                  <ul class="header-menu__items">
+                                                        <li><a href="">Jackets</a></li>
+                                                        <li><a href="">Shirts</a></li>
+                                                        <li><a href="">Suits</a></li>
+                                                        <li><a href="">Trousers</a></li>
+                                                  </ul> 
+                                                </li>  
+                                                  </ul>
+                                                              
+                                               </li>
+                                               <li>
+                                                   <div class="sale box box_color1">
+                                                       <span class="box__bold">Autumn sale!</span><br/>
+                                                <span class="box__think">up to 50% off</span>
+                                                   </div>
+                                               </li>
+                                               
+                                                
+                                            </ul>
+                                        </li>
+                                        
+    
+                                        <li><a href="the brand.html">the brand</a></li>
+             
+                                        <li><a href="local stores.html">local stores</a></li>
+                              
+                                        <li class="header-menu__full"><a href="our lookbook.html" class="dropdown-arrow">look book</a>
+                                            <ul class="header-menu__submenu header-menu__submenu_right clearfix">
+                                                <li>
+                                      
+                                                    <ul class="header-menu__submenu-col clearfix">
+                                            
+                                                        <li><h3 class="header-menu__title header-menu__title-pos">Our Lookbooks</h3>
+                                                              <ul class="header-menu__items">
+                                                                    <li><a href="">Latest Posts (mixed)</a></li>
+                                                                    <li><a href="">Men’s Lookbook</a></li>
+                                                                    <li><a href="">Women’s Lookbook</a></li>
+                                                              </ul>
+                                                        </li>
+
+                                                        <li><h3 class="header-menu__title header-menu__title-pos">Your Lookbook</h3>
+                                                              <ul class="header-menu__items">
+                                                                    <li><a href="">View and Edit</a></li>
+                                                                    <li><a href="">Share</a></li>
+                                                                    <li><a href="">Delete</a></li>
+                                                              </ul> 
+                                                        </li>
+                                                    </ul> 
+                                            
+                                                </li>    
+                                           
+                                               <li>
+                                            <div class="sale box box_color1">
+                                                <span class="box__bold">Autumn sale!</span><br/>
+                                                <span class="box__think">up to 50% off</span>
+                                            </div>
+                                           </li>
+                                        
+                                            
+                                            </ul> 
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                        
+                        <div class="header-sm-cont">
+                            <form class="search search_pos" action="" method="get">
+                                <input class="search__row" name="search" placeholder="Search.." type="search">
+                                <button class="search__btn" type="submit"></button>
+                            </form>
+                        </div>
+                        
+                        </div>
+
+                    </div>  
+                    
+                    
+                    <div class="header-title-block">
+                       <img src="images/title-block.png" alt="">
+                        <h1 class="name-title"><span class="bold">Product </span>view</h1>
+                        <h2 class="slogan">mens - casuals - hoodies & sweatshirts - <span class="active-color">ave classic sweatshirt</span></h2>
+                        
+                        <div class="letter-position ">
+                            <div class="letter">A</div>
+                            <div class="letter">V</div>
+                            <div class="letter">E</div> 
+                        </div>  
+                        
+                    </div>   
+                    
+    </header>
+    
+    <section>
+      <div class="container">
+        <div class="product__body">
+           <div class="product__box1">
+              <div class="product__container-slider">
+               <div class="product__slider">
+                       <div><div class="product__slider-pic"><img src="images/slider.jpg" alt=""></div></div>
+                       <div><div class="product__slider-pic"><img src="images/slider-zoom.jpg" alt=""></div></div>
+<!--
+                       <div><div class="product__slider-pic"><img src="images/slider-zoom2.jpg" alt=""></div></div>
+                       <div><div class="product__slider-pic"><img src="images/slider-zoom3.jpg" alt=""></div></div>
+-->
+               </div>
+               </div>
+               <div class="product__info">
+                   <h2 class="product__name title">Ave classic sweatshirt</h2>
+                   <div class="product__under-name">
+                       <div class="rating" style="background: linear-gradient(to right, #ded3aa 70%, #dfdfde 70%, #dfdfde 100%);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;">
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>  
+                       </div>
+                       <div class="product__review">
+                           <a href=""><span class="product__number">3</span>
+                           <span class="product__rev">Review(s)</span></a> 
+                       </div>
+                       <div class="product__review-link"><a href="#">Add a Review</a></div>
+                       <div class="product__socials">
+                           <span>Share:&nbsp;</span>
+                           <div class="product__soc-icons">
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                               <a href=""><i class="fa fa-twitter"></i></a>
+                               <a href=""><i class="fa fa-google-plus"></i></a>
+                               <a href=""><i class="fa fa-pinterest-p"></i></a>   
+                               <a href=""><i class="fa fa-instagram"></i></a>
+                               <a href=""><i class="fa fa-envelope-o"></i></a>
+                               </div>
+                       </div>
+                   </div>
+                   <div class="product__price">
+                       <span class="product__price-old">
+                           <sup>£</sup>107
+                        </span>
+                        <span>
+                           <sup>£</sup>89.99
+                        </span>
+                   </div>
+                   <div class="product__under-price">
+                       <p><span class="atribute">Availability:&nbsp;</span><span class="value">In stock</span></p>
+                       <p><span class="atribute">Product Code:&nbsp;</span><span class="value">#499577</span></p>
+                       <p><span class="atribute">Tags:&nbsp;</span ><span class="value">
+                            <a href="">Classic,</a>
+                            <a href="">Casual,</a>
+                            <a href="">V-neck,</a>
+                            <a href="">Loose</a>
+                       </span></p>
+                   </div>
+                   <div class="product-text text">
+                       <p>Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.</p>
+                   </div>
+                   <div class="product__list">
+                       <ul>
+                           <li>Elasticated cuffs</li>
+                           <li>Casual fit</li>
+                           <li>100% Cotton</li>
+                           <li>Free shipping with 4 days delivery</li>
+                       </ul>
+                   </div>
+                   <div class="product__select">
+                        <div class="product__dropdown">
+                                <p>Colour</p>
+                                <label class="product__dropdown__label label">
+                                    <select class="product__dropdown__select select">
+                                       <option>Select Colour</option>
+                                        <option>black</option>
+                                        <option>white</option>
+                                        <option>red</option>
+                                        <option>blue</option>
+                                        <option>green</option>
+                                    </select>
+                                </label>
+                        </div>
+                          <div class="product__dropdown">
+                                <p>Size</p>
+                                <label class="product__dropdown__label label">
+                                    <select class="product__dropdown__select  select">       <option>Select Size</option>
+                                        <option>S</option>
+                                        <option>M</option>
+                                        <option>L</option>
+                                        <option>XL</option>
+                                        <option>XXL</option>
+                                    </select>
+                                </label>
+                        </div>
+                         <div class="product__dropdown">
+                                <p>qty</p>
+                                <div class="quantity__block">
+                                    <input class="quantity__num" type="number" value="1">
+                                    <div class="quantity__arrows">
+                                    <button class="quantity__arrow quantity__arrow-minus"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+                                    <button class="quantity__arrow quantity__arrow-plus"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                        </div>
+                   </div>
+                   <div class="product__btns">
+                     <div class="product__btn-row">
+                      <a href="" class="btn product__btn product__btn-cart"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>&nbsp;Add to Cart</a>
+                      <a href="" class="btn product__btn"><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>&nbsp;Add to LookBook</a>
+                      </div>
+                      <a href="" class="btn product__btn product__btn-compare">
+                        <span class="icon-stack fa-stack">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-compress fa-stack-1x fa-inverse"></i>
+                        </span>
+                      Add to Compare</a>
+                   </div>
+               </div>
+           </div>
+           <div class="product__box2">
+            <div class="tab-container">
+                <div class="tab-wrapper">
+                    <input type="radio" name="tab" id="tab1" checked>
+                    <label for="tab1" class="tab-label" nth="1">Description</label>
+                    <div class="tab-item" id="tab-content1">
+                        <h2 class="product__title subtitle">Nunc egestas posuere enim, eu maximus erat posuere eget</h2>
+                        <p class="text product-text2">Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.</p>
+                        <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.</p>
+                    </div>
+         
+            
+            <input type="radio" name="tab" id="tab2">
+            <label for="tab2" class="tab-label" nth="2">Video</label>
+            <div class="tab-item" id="tab-content2">
+            <div class="video-container">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/MQ6UCqSDpiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>   
+               
+               
+                </div>
+            
+            <input type="radio" name="tab" id="tab3">
+            <label for="tab3" class="tab-label" nth="3">Size & Specs</label>
+            <div class="tab-item" id="tab-content3"><p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p></div>
+            
+            <input type="radio" name="tab" id="tab4">
+            <label for="tab4" class="tab-label" nth="4">Delivery & Returns</label>
+            <div class="tab-item" id="tab-content4">
+            <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p>
+            <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p>
+            </div>
+            
+            <input type="radio" name="tab" id="tab5">
+            <label for="tab5" class="tab-label" nth="5">Reviews</label>
+            <div class="tab-item" id="tab-content5">
+                <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p>
+                <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p>
+                <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p>
+                <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p>
+                <p class="text">Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.</p>
+            </div>
+             
+            </div>
+        </div>     
+              
+              
+
+               
+           </div>
+           
+            
+        </div>
+          
+      </div>
+       
+        
+    </section>
+    
+
+   
+    <footer class="footer">
+                <div class="footer__body container">
+                   <div class="footer__lists">
+                       <ul class="footer__top-list">
+                           <li class="footer__top-item">
+                               <h3>Information</h3>
+                               <ul class="footer__sub-list">
+                                   <li><a href="the brand.html">The brand</a></li>
+                                   <li><a href="local stores.html">Local stores</a></li>
+                                   <li><a href="">Customer service</a></li>
+                                   <li><a href="">Privacy & cookies</a></li>
+                                   <li><a href="">Site map</a></li>
+                               </ul>
+                           </li>
+                           <li class="footer__top-item">
+                               <h3>Why&nbsp;buy&nbsp;from&nbsp;us</h3>
+                               <ul class="footer__sub-list">
+                                   <li><a href="">Shipping & returns</a></li>
+                                   <li><a href="">Secure shopping</a></li>
+                                   <li><a href="">Testimonials</a></li>
+                                   <li><a href="the brand.html">Award winning</a></li>
+                                   <li><a href="the brand.html">Ethical trading</a></li>
+                               </ul>
+                           </li>
+                           <li class="footer__top-item">
+                               <h3>Your&nbsp;account</h3>
+                               <ul class="footer__sub-list">
+                                   <li><a href="welcome.html">Sign in</a></li>
+                                   <li><a href="welcome.html">Register</a></li>
+                                   <li><a href="">View cart</a></li>
+                                   <li><a href="">View your lookbook</a></li>
+                                   <li><a href="">Track an order</a></li>
+                                   <li><a href="">Update information</a></li>
+                               </ul>
+                           </li>
+                           <li class="footer__top-item">
+                               <h3>Lookbook</h3>
+                               <ul class="footer__sub-list">
+                                   <li><a href="">Latest posts</a></li>
+                                   <li><a href="">Men’s lookbook</a></li>
+                                   <li><a href="">Women’s lookbook</a></li>
+                                   <li><a href="">Lookbooks RSS feed</a></li>
+                                   <li><a href="">View your lookbook</a></li>
+                                   <li><a href="">Delete your lookbook</a></li>
+                               </ul>
+                           </li>
+                           <li class="footer__top-item footer__top-item_cont">
+                               <h3>contact&nbsp;details</h3>
+                               <ul class="footer__sub-list">
+                                   <li><p class="footer__contact">Head Office: Avenue Fashion, 180-182 Regent Street, London.</p></li>
+                                    <li><p class="footer__contact">Telephone: 0123-456-789</p>
+                                       <p class="footer__contact">Email:&nbsp;support@yourwebsite.com</p>
+                                    </li> 
+                               </ul>
+                           </li>
+                       </ul>
+                   </div>
+                
+                <div class="footer__boxes">
+                    
+                    <div class="box box_footer box_color1">
+                           <span class="box__bold">award winner</span><br/>
+                           <span class="box__think">fashion awards 2016</span>
+                    </div>
+                    <div class="box box_footer box_footer-right box_color2">
+                        <div class="socials">
+                           <a href=""><i class="fa fa-facebook fa-fw"></i></a>
+                           <a href=""><i class="fa fa-twitter fa-fw"></i></a>
+                           <a href=""><i class="fa fa-instagram fa-fw"></i></a>
+                           <a href=""><i class="fa fa-pinterest fa-fw"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+                   
+        <div class="copyright">
+            <div class="copyright__body container">
+                <div class="copyright__left">© 2016 Avenue Fashion™</div>
+                <div class="copyright__right">
+                    <div class="copyright__item">Design by RobbyDesigns.com</div>
+                    <div class="copyright__item">Dev by Loremipsum.com</div>
+                </div>
+            </div>
+        </div>
+                    
+    </footer>
+   
+   
+   
+   
+   
+    
+</body>
+</html>

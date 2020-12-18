@@ -1,0 +1,330 @@
+/*Header top*/
+
+.active-color {
+    color: #00c8c8;
+}
+sup {
+    font-size: .7em;
+}
+.letter {
+    font-family:'Montserrat-Bold', sans-serif;
+    font-size: calc(70px + 370 * (100vw / 1920));
+    line-height: 0.695;
+    font-weight: bold;
+    color: #575153;
+    text-transform: uppercase;
+}
+.header-row1__link,
+.currency-dropdown__label,
+.currency-dropdown__select,
+.currency-dropdown p,
+.search__row,
+.copyright 
+{
+    font: bold 13px/20px 'Montserrat-Regular', sans-serif;
+    color: #999999;
+}
+.cart-btn {
+    font: bold 13px/20px 'Montserrat-Regular', sans-serif;
+    color: #999999;
+}
+.cart-box p {
+    font: 13px/22px 'Montserrat-light', sans-serif;
+    color: #999999;
+}
+.product__dropdown,
+.product__dropdown__label,
+.product__dropdown__select {
+    font: 13px/22px 'Montserrat-light', sans-serif;
+    color: #989898;
+}
+
+@media (max-width: 430px) {
+
+.copyright {
+    font-size: 10px;
+}    
+    
+}
+
+@media (max-width: 320px) {
+.copyright {
+    font-size: 10px;
+}
+}
+.cart-dropdown__select {
+    color: white;
+}
+.btn {
+    font: 500 16px 'Montserrat-Regular', sans-serif;
+    color: #454647;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.btn:hover {
+    color: white;
+}
+
+
+
+/*Вторая строка хедера*/
+
+.logo a {
+    font: 24px/50px 'Montserrat-Regular', sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+}
+.logo span {
+    font-weight: bold;
+}
+.menu>li>a {
+    font: bold 13px/20px 'Montserrat-Regular', sans-serif;
+    text-transform: uppercase;
+}
+.header-menu__top-menu>li>a {
+    color: #222222;
+}
+.menu_section>li>a {
+    color: #727272;
+}
+.menu>li>a:hover,
+.header-menu__items>li>a:hover{
+    color: #00c8c8;
+}
+.header-menu__title {
+    font: bold 12px/20px 'Montserrat-Regular', sans-serif;
+    color: #575153;
+    text-transform: uppercase;
+}
+.header-menu__items>li>a {
+    font: 14px/30px 'Montserrat-light', sans-serif;
+    color: #727272;
+}
+.box__think {
+    font: 36px/48px 'Montserrat-Regular', sans-serif;
+    color: white;
+}
+.box__bold {
+    font: bold 36px/48px 'Montserrat-Bold', sans-serif;
+    color: white;
+}
+
+
+/*Секция с карточками товаров*/
+
+.card__title {
+    font: 700 13px/20px 'Montserrat-Bold', sans-serif;
+    color: #727272;
+    text-transform: uppercase;
+}
+.card__text {
+    font: 400 15px/22px "Roboto - Regular", sans-serif;
+    color: #8e8c8c;
+}
+.card__price {
+    font: 300 21px/30px 'Montserrat-light', sans-serif;
+    color: #9a9a9a; 
+    text-transform: uppercase;
+    letter-spacing: 1.05px;
+}
+.ref {
+    font-size: 13px;
+}
+
+/*Секция Lookbook*/
+
+.lookbook__title {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 54px;
+    color: #575153;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.lookbook__title span {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+}
+.lookbook__text {
+    font: 400 15px/22px "Roboto - Regular", sans-serif;
+    color: #727272;
+}
+
+/*Footer*/
+
+.footer__top-item h3 {
+    font: 700 13px 'Montserrat-Regular', sans-serif;
+    color: #575153;
+    text-transform: uppercase;
+}
+.footer__sub-list >li >a,
+.footer__contact {
+    font: 300 14px 'Montserrat-Regular', sans-serif;
+    line-height: 1.2;
+    color: #727272;
+}
+.footer__sub-list >li >a:hover{
+    color: #00c8c8;
+}
+.box_footer span {
+    text-transform: uppercase;
+}
+@media (max-width: 360px) {
+
+.footer__sub-list >li >a,
+.footer__contact {
+    font-size: 13px; 
+}
+}
+@media (max-width: 533px) {
+   .box_footer span
+    { 
+    font-size: 6.5vw;
+}  
+}
+
+
+/*****************/
+/****************/
+/*****************/
+.name-title {
+    font: 48px/54px 'Montserrat-Regular', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+.slogan {
+    font: 30px/54px 'Montserrat-Regular', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+.bold {
+    font-weight: bold;
+}
+
+/*Секция-контент на странице The Brands*/
+
+.title {
+    font: 18px/20px 'Montserrat-Regular', sans-serif;
+    color: #575153;
+    text-transform: uppercase;
+}
+.subtitle {
+    font: bold 13px/20px 'Montserrat-Regular', sans-serif;
+    color: #727272;
+    text-transform: uppercase;
+}
+.text {
+    font: 15px/22px "Roboto - Regular", sans-serif;
+    color: #8e8c8c;
+}
+
+.link_text {
+    color: #00c8c8;
+}
+
+/*LookBook*/
+
+.poster__title {
+    font: 48px/54px 'Montserrat-light', sans-serif;
+    color: #575153;
+    text-transform: uppercase;
+}
+.watchword {
+    font: bold 72px/54px "Montserrat-Bold", sans-serif;
+    color: #00c8c8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.watchword > .bold {
+    font: bold 200px/54px "Montserrat-Bold", sans-serif;
+}
+
+@media (max-width: 1024px) {
+.poster__title {
+    font: 40px/50px 'Montserrat-light', sans-serif;
+    
+} 
+}
+
+/*page5 Product view*/
+
+.product__review a,
+.product__review-link a
+{
+    font: bold 16px/30px 'Montserrat-Regular', sans-serif;
+    color: #8e8c8c;
+}
+
+.product__review a:hover,
+.product__review-link a:hover {
+    color: #00c8c8;
+    cursor: pointer;
+}
+
+.product__socials span {
+    font: 16px/30px 'Montserrat-Regular', sans-serif;
+    color: #8e8c8c;
+}
+.product__price {
+    font: 30px'Montserrat-light', sans-serif;
+    color: #9a9a9a;
+}
+.product__price sup {
+    font-size: 17px;
+}
+.atribute {
+    font: bold 16px/30px 'Montserrat-Regular', sans-serif;
+    text-transform: uppercase;
+    color: #575153;
+}
+.value {
+    font: 16px/30px 'Montserrat-Regular', sans-serif;
+    color: #8e8c8c;
+}
+.value a {
+    color: #00c8c8;
+}
+
+.product__dropdown p {
+     font: bold 13px/30px 'Montserrat-Regular', sans-serif;
+    text-transform: uppercase;
+    color: #575153;
+    
+}
+.product__list {
+    font: 15px/24px "Roboto - Regular", sans-serif;
+    color: #8e8c8c;
+}
+.tab-wrapper label{
+    font: 600 16px/30px 'Montserrat-Regular', sans-serif;
+    color: #6c6769;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.tab-wrapper input:checked+label {
+    color: white;
+}
+
+/*************************/
+
+/***page6 Welcome to Ave***/
+
+/************************/
+
+.welcome-form__field {
+    font: 15px/22px 'Montserrat-light', sans-serif;
+    color: #575153;  
+}
+.welcome-form legend {
+    font: 18px/20px 'Montserrat-Regular', sans-serif;
+    text-transform: uppercase;
+    color: #575153; 
+}
+
+
