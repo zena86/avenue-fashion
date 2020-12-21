@@ -13,7 +13,6 @@
 
 
 
-![Screenshort 1](/images/imgreadme/orig.svg) 
 
 ![Screenshort 1](/images/imgreadme/screenshort1.png)
 
