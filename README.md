@@ -7,7 +7,7 @@
 
 ![Screenshort 1](/images/imgreadme/html-5.svg) HTML-5
 ![Screenshort 1](/images/imgreadme/css-3.svg) CSS-3
-jQuery
+![Screenshort 1](/images/imgreadme/jquery.png) jQuery
 
 ![Screenshort 1](/images/imgreadme/orig.svg) API Яндекс.Карт
 
