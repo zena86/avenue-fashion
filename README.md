@@ -7,10 +7,10 @@
 ## Интернет-магазин "Avenue fashion"
 
 Языки | Библиотеки |Плагины | Сервисы | Инструменты 
-------|------------|--------|--------|-----
+------|------------|--------|---------|-----
 HTML5 |jQuery|Slick Slider |Google Fonts|Brackets
-CSS3||Font Awesome|Adobe Photoshop
-||| API Яндекс.Карт|Avocode
+CSS3||Font Awesome|Adobe Photoshop|
+||| API Яндекс.Карт|Avocode|
 
 
 <!--
