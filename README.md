@@ -29,7 +29,7 @@ CSS3  |            |            |Font Awesome    |Adobe Photoshop|           |
 ![Screenshort 1](/images/imgreadme/screenshort-menu.png)
 
 
-**5. Карточка товара с выпадающим описанием**
+**5. Карточка товара с описанием, выпадающим при наведении мыши **
 
 ![Screenshort 1](/images/imgreadme/screenshort-card.png)
 
