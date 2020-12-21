@@ -6,11 +6,11 @@
 
 ## Интернет-магазин "Avenue fashion"
 
-Языки | Библиотеки | Сервисы | Инструменты 
-------|------------|---------|-------------
-HTML5 |jQuery |Google Fonts|Brackets
-CSS3|Slick Slider|Font Awesome|Adobe Photoshop
-|    |            | API Яндекс.Карт|Avocode
+Языки | Библиотеки |Плагины | Сервисы | Инструменты 
+------|------------|--------|--------|-----
+HTML5 |jQuery|Slick Slider |Google Fonts|Brackets
+CSS3||Font Awesome|Adobe Photoshop
+||| API Яндекс.Карт|Avocode
 
 
 <!--
