@@ -29,8 +29,11 @@ CSS3  |            |            |Font Awesome    |Adobe Photoshop|           |
 ![Screenshort 1](/images/imgreadme/screenshort-menu.png)
 
 
-**5. Карточка товара с описанием, выпадающим при наведении мыши **
+**5. Карточка товара с описанием, выпадающим при наведении мыши**
 
 ![Screenshort 1](/images/imgreadme/screenshort-card.png)
 
 
+**6. Слайдер, кастомизированные селекты (в т.ч. числовой), звездный рейтинг (с использованием Font Awesome и градиентной заливки)**
+
+![Screenshort 1](/images/imgreadme/screenshort-slider.png)
