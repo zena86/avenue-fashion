@@ -54,3 +54,5 @@ CSS3  |            |            |Font Awesome    |Adobe Photoshop|           |
 
 ![Screenshort 1](/images/imgreadme/screenshort-burger.png)|![Screenshort 1](/images/imgreadme/screenshort-burger2.png)
 ----------------------------------------------------------|-----------------------------------------------------------
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
