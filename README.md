@@ -1,6 +1,6 @@
 <h1 align="center">Интернет-магазин "Avenue fashion"</h1>
 
-[Avenue fashion](https://zena86.github.io/avenue-fashion/)
+DEMO [Avenue fashion](https://zena86.github.io/avenue-fashion/)
 
 Языки | Библиотеки |Плагины     | Сервисы        | Инструменты   |Методология|Прочие
 ------|------------|------------|----------------|---------------|-----------|-----------
