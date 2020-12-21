@@ -10,7 +10,7 @@
 ------|------------|---------|-------------
 HTML5 |jQuery |Google Fonts|Brackets
 CSS3|Slick Slider|Font Awesome|Adobe Photoshop
-||API Яндекс.Карт|Avocode
+|    |            | API Яндекс.Карт|Avocode
 
 
 <!--
