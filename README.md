@@ -15,6 +15,8 @@ CSS3  |            |            |Font Awesome    |Adobe Photoshop|           |
 
 
 
+
 Яндекс карта со сменой локации и описания по клику на соответствующие кнопки
+
 ![Screenshort 1](/images/imgreadme/screenshort1.png)
 
