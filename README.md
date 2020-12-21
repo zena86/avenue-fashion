@@ -37,3 +37,8 @@ CSS3  |            |            |Font Awesome    |Adobe Photoshop|           |
 **6. Слайдер, кастомизированные селекты (в т.ч. числовой), звездный рейтинг (с использованием Font Awesome и градиентной заливки)**
 
 ![Screenshort 1](/images/imgreadme/screenshort-slider.png)
+
+
+**7. Табы (на чистом CSS), видео**
+
+![Screenshort 1](/images/imgreadme/screenshort-tabs.png)
