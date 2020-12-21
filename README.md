@@ -46,5 +46,5 @@ CSS3  |            |            |Font Awesome    |Adobe Photoshop|           |
 
 **8. Бургер-меню**
 
-![Screenshort 1](/images/imgreadme/screenshort-burger.png)
-![Screenshort 1](/images/imgreadme/screenshort-burger2.png)
+![Screenshort 1](/images/imgreadme/screenshort-burger.png)|![Screenshort 1](/images/imgreadme/screenshort-burger2.png)
+----------------------------------------------------------|-----------------------------------------------------------
