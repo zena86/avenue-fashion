@@ -2,11 +2,11 @@
 
 DEMO [Avenue fashion](https://zena86.github.io/avenue-fashion/)
 
-Языки | Библиотеки |Плагины     | Сервисы        | Инструменты   |Методология|Прочие
-------|------------|------------|----------------|---------------|-----------|-----------
-HTML5 |jQuery      |Slick Slider|Google Fonts    |Brackets       |БЭМ        |CSS flexbox
-CSS3  |            |            |Font Awesome    |Adobe Photoshop|           |
-&nbsp;|            |            |API Яндекс.Карт |Avocode        |           |
+Языки     | Библиотеки |Плагины     | Сервисы        | Инструменты   |Методология|Прочие
+----------|------------|------------|----------------|---------------|-----------|-----------
+HTML5     |jQuery      |Slick Slider|Google Fonts    |Brackets       |БЭМ        |CSS flexbox
+CSS3      |            |            |Font Awesome    |Adobe Photoshop|           |
+JavaScript|            |            |API Яндекс.Карт |Avocode        |           |
 
 
 Адаптивность реализована за счет:
